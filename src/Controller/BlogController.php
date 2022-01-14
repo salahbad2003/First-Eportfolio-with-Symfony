@@ -55,4 +55,14 @@ class BlogController extends AbstractController
             'title'=> "LOISIRS",
         ]);
     }
+     /**
+     *  @Route("/oraltest", name="oraltest")
+     */
+    /*public function oraltest() : Response
+    {
+        return $this->render('blog/oraltest.html.twig', [
+            'title'=> "ORALTEST",
+        ]);
+    }
+    */
 }
