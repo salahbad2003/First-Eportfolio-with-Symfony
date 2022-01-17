@@ -58,11 +58,12 @@ class BlogController extends AbstractController
      /**
      *  @Route("/oraltest", name="oraltest")
      */
-    /*public function oraltest() : Response
+    public function oraltest() : Response
     {
         return $this->render('blog/oraltest.html.twig', [
             'title'=> "ORALTEST",
         ]);
     }
-    */
+    
+
 }
